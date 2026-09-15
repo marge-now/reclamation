@@ -26,7 +26,7 @@ Liste-les toutes avant de proposer la bagarre : résilier et partir, changer de 
 
 ### 5. L'investissement
 
-Énergie (combien d'échanges, sur combien de semaines), temps (le tien et celui de l'utilisateur), argent (les recommandés à 8,60 €, un avocat s'il en faut un, les frais de justice). Et la durée probable : une médiation, c'est trois mois minimum. Un juge, six à douze.
+Énergie (combien d'échanges, sur combien de semaines), temps (le tien et celui de l'utilisateur), argent (les recommandés à 8,60 €, un avocat s'il en faut un, les frais de justice). Et la durée probable, la vraie : une médiation annonce 90 jours et dure en moyenne sept mois et demi (constaté sur la Médiation de l'Assurance). Un juge, six à douze mois. Une contestation de stationnement, un mois.
 
 ### 6. La viabilité juridique
 

@@ -1,7 +1,7 @@
 {
   "name": "reclamation",
-  "description": "Skill pour agents IA qui mène un litige de particulier ou de petite entreprise en France : assessment, dossier, courriers, recommandé, médiateur, escalade.",
-  "version": "0.1.0",
+  "description": "Skill pour agents IA qui mène un litige de particulier ou de petite entreprise en France et à Bruxelles : assessment, dossier, courriers, recommandé, médiateur, contestation de stationnement, escalade.",
+  "version": "0.2.0",
   "author": "Marge",
   "homepage": "https://marge.now",
   "license": "MIT",
@@ -11,7 +11,7 @@
       "slug": "reclamation",
       "name": "Réclamation",
       "path": "reclamation/SKILL.md",
-      "description": "Litiges du quotidien : assurance, logement, contrat de prestation. Assessment avant d'y aller, brain et journal du dossier, réclamation, mise en demeure, médiateur, mairie, résolution, escalade un cran à la fois."
+      "description": "Litiges du quotidien : assurance, logement, contrat de prestation, stationnement. Assessment avant d'y aller, brain et journal du dossier, réclamation, mise en demeure, médiateur, mairie, résolution, contestation en ligne, escalade un cran à la fois."
     }
   ]
 }

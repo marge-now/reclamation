@@ -4,14 +4,17 @@ description: |
   Mène un litige de particulier ou de petite entreprise en France, de l'assessment à l'escalade :
   assurance qui refuse un remboursement ou pose une exclusion, bailleur ou agence qui laisse traîner
   un danger ou une réparation, prestataire ou loueur qui ne livre pas et prélève quand même, service
-  client qui ne répond plus, médiateur muet. Utiliser ce skill dès que l'utilisateur parle d'un
-  litige, d'une réclamation, d'un refus, d'une mise en demeure, d'un recommandé, d'un médiateur,
-  d'un remboursement refusé, d'une caution, d'un contrat qu'il veut résilier ou faire respecter,
-  ou d'une entreprise qui « ne répond pas », même s'il ne demande pas explicitement un courrier.
+  client qui ne répond plus, médiateur muet, avis de stationnement reçu alors qu'on avait le droit
+  de se garer. Utiliser ce skill dès que l'utilisateur
+  parle d'un litige, d'une réclamation, d'un refus, d'une mise en demeure, d'un recommandé, d'un
+  médiateur, d'un remboursement refusé, d'une caution, d'une amende ou d'un PV de stationnement,
+  d'un contrat qu'il veut résilier ou faire respecter, ou d'une entreprise qui « ne répond pas »,
+  même s'il ne demande pas explicitement un courrier.
   Périmètre : droit civil, de la consommation, des assurances, du bail d'habitation, contrats B2B
-  simples. Hors périmètre : pénal, famille, travail, procédures déjà engagées par un avocat.
+  simples, redevances de stationnement (FPS en France, redevance communale à Bruxelles). Hors périmètre : pénal (y compris les contraventions de
+  stationnement gênant ou dangereux), famille, travail, procédures déjà engagées par un avocat.
 metadata:
-  last_updated: 2026-09-10
+  last_updated: 2026-09-15
   author: Marge (marge.now)
 ---
 
@@ -34,6 +37,8 @@ Lis [references/assessment.md](references/assessment.md). Sept questions, une pa
 
 Un litige ne mérite pas toujours d'être mené. Dire « classe-le, ça ne vaut pas ton énergie » fait partie du travail.
 
+Une exception : un avis de stationnement avec un droit prouvable (carte de résident, ticket, abonnement). L'assessment tient en une ligne et la contestation se fait le jour même, en ligne. Voir [references/stationnement.md](references/stationnement.md).
+
 ## 2. Échéances
 
 En tête de chaque réponse sur un dossier ouvert, les échéances à venir, triées :
@@ -44,7 +49,7 @@ En tête de chaque réponse sur un dossier ouvert, les échéances à venir, tri
 | Moins de 7 jours | 🟠 |
 | 7 à 30 jours | 🟡 |
 
-Deux familles d'échéances : celles qu'on a posées à l'adversaire (une deadline annoncée se tient, sinon elle ne vaut rien), et les délais légaux ou de procédure (2 mois de réponse à une réclamation, 21 jours de recevabilité du médiateur, 8 jours d'une mise en demeure, dates du bail). Le détail par domaine est dans les références.
+Deux familles d'échéances : celles qu'on a posées à l'adversaire (une deadline annoncée se tient, sinon elle ne vaut rien), et les délais légaux ou de procédure (2 mois de réponse à une réclamation, 21 jours de recevabilité du médiateur, 8 jours d'une mise en demeure, un mois pour un RAPO de stationnement, 10 jours pour une redevance à Bruxelles-Ville, dates du bail). Le détail par domaine est dans les références.
 
 ## 3. Router
 
@@ -57,6 +62,7 @@ Deux familles d'échéances : celles qu'on a posées à l'adversaire (une deadli
 | Assurance (refus, exclusion, réclamation, médiateur, ACPR) | [references/assurance.md](references/assurance.md) |
 | Logement (bailleur, agence, danger, réparations, loyer, mairie) | [references/logement.md](references/logement.md) |
 | Contrat de prestation ou de location entre professionnels | [references/contrat-b2b.md](references/contrat-b2b.md) |
+| Stationnement (FPS, RAPO, redevance bruxelloise, carte de résident) | [references/stationnement.md](references/stationnement.md) |
 | Levier réputation : comment, et où est la ligne | [references/reputation.md](references/reputation.md) |
 | Recommandé sans imprimante (laposte.fr) | [references/process-laposte.md](references/process-laposte.md) |
 | Saisir un médiateur en ligne | [references/process-mediateur.md](references/process-mediateur.md) |

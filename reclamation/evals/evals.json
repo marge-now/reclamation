@@ -84,6 +84,23 @@
         "La réponse ne rédige pas de mise en demeure",
         "La réponse ne culpabilise pas l'utilisateur et laisse la décision finale à l'utilisateur"
       ]
+    },
+    {
+      "id": 6,
+      "name": "stationnement-carte-resident",
+      "prompt": "J'ai reçu d'un coup quatre avis de redevance de stationnement à Bruxelles, qui datent de 2023, pour ma voiture garée dans ma rue, alors que j'ai une carte de riverain valable. Voilà les photos des avis et ma carte. Qu'est-ce qu'on fait ?",
+      "expected_output": "Le skill reconnaît une redevance de stationnement (pas une amende pénale), ne lance pas d'assessment d'une page, identifie l'organisme émetteur et le délai sur chaque avis, vérifie que la carte couvre la plaque, le secteur et les dates, rédige une contestation courte par avis avec la carte en pièce jointe, propose de remplir le formulaire en ligne de l'organisme en s'arrêtant avant l'envoi (captcha et clic à l'utilisateur), et rappelle que payer dans le délai n'empêche pas de contester. Il ne cite pas d'article de loi non vérifié et ne parle ni de points ni de tribunal de police.",
+      "files": [],
+      "assertions": [
+        "La réponse qualifie l'avis de redevance de stationnement et non d'amende ou de contravention pénale",
+        "La réponse propose une contestation par avis, pas une seule pour les quatre",
+        "La réponse identifie l'organisme émetteur (parking.brussels ou la commune) et le délai de contestation à partir de l'avis",
+        "La réponse vérifie ou demande à vérifier que la carte de riverain couvre la plaque, le secteur et les dates des avis",
+        "La réponse dit que l'agent prépare le formulaire et que l'utilisateur envoie (captcha, clic final)",
+        "La réponse mentionne que le paiement dans le délai n'empêche pas la contestation ou explique le risque de frais de rappel",
+        "Le texte de contestation proposé fait trois paragraphes ou moins, sans point d'exclamation ni tiret long",
+        "La réponse distingue la date du stationnement (2023) de la date de réception de l'avis pour calculer le délai de contestation"
+      ]
     }
   ]
 }
